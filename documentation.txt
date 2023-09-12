@@ -1,0 +1,11 @@
+// Initialization of the app
+
+- npx create-next-app@latest
+
+// Some libraries that help us develop the app
+- npm install @headlessui/react cloudinary jsonwebtoken @types/jsonwebtoken graphql-request next-auth
+
+// this library helps us in the workflow with base graphics
+- npm install @grafbase/sdk --save-dev
+
+- npx grafbase init --config-format typescript
